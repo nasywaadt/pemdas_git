@@ -41,6 +41,8 @@ data_panen = {
    }
 }
 
+print("\nTugas latihan Git")
+
 #Menampilkan seluruh data lokasi dan hasil panen
 print (data_panen)
 
