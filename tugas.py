@@ -41,6 +41,9 @@ data_panen = {
    }
 }
 
+#Melakukan perubahan pada file
+print ("=== Data Panen ===")
+
 #Menampilkan seluruh data lokasi dan hasil panen
 print (data_panen)
 
@@ -56,7 +59,9 @@ for i, j in data_panen.items():
     kedelai = j['hasil_panen']['kedelai']
     nama_lokasi = j['nama_lokasi']
 
-    #Membuat percabangan jika jumlah hasil panen padi lebih dari 1300 atau kedelai lebih dari 800 di suatu lokasi, maka lokasi tersebut memerlukan perhatian khusus. Jika tidak, maka lokasi tersebut dalam kondisi baik.
+    #Membuat percabangan jika jumlah hasil panen padi lebih dari 1300 
+    # atau kedelai lebih dari 800 di suatu lokasi, maka lokasi tersebut memerlukan perhatian khusus. 
+    # Jika tidak, maka lokasi tersebut dalam kondisi baik.
     if padi > 1300 or kedelai > 800:
         print(f"Lokasi {nama_lokasi} memerlukan perhatian khusus")
     else:
