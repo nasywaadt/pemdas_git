@@ -42,7 +42,7 @@ data_panen = {
 }
 
 #Melakukan perubahan pada file
-print ("=== Data Panen ===")
+print ("=== Data Panen 2024 ===")
 
 #Menampilkan seluruh data lokasi dan hasil panen
 print (data_panen)
