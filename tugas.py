@@ -42,7 +42,7 @@ data_panen = {
 }
 
 #Melakukan perubahan pada file
-print ("=== Data Panen ===")
+print ("=== Data Panen 2024 ===")
 
 
 
