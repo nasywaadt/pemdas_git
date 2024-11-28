@@ -30,6 +30,14 @@ data_panen = {
             'jagung': 850,
             'kedelai': 550,
        }
+   },
+    'lokasi5' : {
+       'nama_lokasi': 'Kebun E',
+       'hasil_panen': {
+            'padi': 1400,
+            'jagung': 950,
+            'kedelai': 480,
+        }
    }
 }
 
