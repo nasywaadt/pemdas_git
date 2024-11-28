@@ -22,7 +22,15 @@ data_panen = {
             'jagung': 750,
             'kedelai': 600,
        }
-   } 
+   },
+   'lokasi4' : {
+       'nama_lokasi': 'Kebun D',
+       'hasil_panen': {
+            'padi': 1300,
+            'jagung': 850,
+            'kedelai': 550,
+       }
+   }
 }
 
 #Menampilkan seluruh data lokasi dan hasil panen
